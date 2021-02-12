@@ -1,0 +1,9 @@
+[Unit]
+Description=GNU Hello World startup script
+
+[Service]
+ExecStart=/usr/bin/myscript.sh
+StandardOutput=journal
+
+[Install]
+WantedBy=multi-user.target
